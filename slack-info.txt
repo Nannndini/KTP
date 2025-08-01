@@ -1,1 +1,14 @@
+# Slack Info
 
+Team: 27G
+- Nandini Naidu: Nandini
+- Kailash Chandra: Kailash Chandra
+- Sri Vardhan: Vardhan
+- Sarayu Reddy: Sarayu Reddy
+
+Slack Workspace: #KTP
+Slack Channels: - all-ktp
+                - backend
+                - features
+                - frontend
+                - issues
