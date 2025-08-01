@@ -1,18 +1,34 @@
-# KTP
-# Knowledge Transfer Platform (KTP)
+Knowledge Transfer Platform (KTP)
 
-A collaborative platform designed to simplify and streamline technical knowledge sharing within teams.
+A collaborative web app designed to simplify and streamline technical knowledge sharing within teams — built using Streamlit.
 
-## Features
-- Post and access knowledge articles
-- Slack integration for team updates
-- GitHub sync for tracking contributions
+##  Features
+-  Create and browse technical knowledge articles
+-  GitHub API integration to track real-time contributions
+-  Slack notifications for article updates
+-  Search and tag-based filtering
+- Data visualizations of team activity (optional)
 
-## Tech Stack
-- Frontend: stream
-- Backend: Node.js, Express
-- Database: MongoDB
+## 🛠 Tech Stack
 
+**Frontend & App UI**
+- [Streamlit](https://streamlit.io/) — Python-based interactive UI framework
+
+**Backend / Logic**
+- Python (APIs & integrations)
+- GitHub REST API
+- Slack Webhooks
+
+**Database**
+- vector database
+
+
+## ⚙️ Setup Instructions
+
+Clone the repo:
+```bash
+git clone https://github.com/your-username/ktp.git
+cd ktp
 ## Team
 - Nandini (Frontend & Repo Manager)
 - [Add other members]
