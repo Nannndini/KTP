@@ -9,7 +9,7 @@ A collaborative platform designed to simplify and streamline technical knowledge
 - GitHub sync for tracking contributions
 
 ## Tech Stack
-- Frontend: Next.js / React
+- Frontend: stream
 - Backend: Node.js, Express
 - Database: MongoDB
 
