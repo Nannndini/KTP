@@ -21,7 +21,7 @@ A collaborative platform designed to simplify and streamline technical knowledge
 This project is licensed under the MIT License.
 See the LICENSE file for details.
 
-📬 Contact
+Contact
 Have questions? Reach out via GitHub Issues or [email@example.com].
 
 yaml
@@ -30,7 +30,7 @@ Edit
 
 ---
 
-### ✅ **Optional Enhancements**
+### **Optional Enhancements**
 
 1. **Add badges** to the top of your README (before "Features"):
 
