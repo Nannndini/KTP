@@ -1,7 +1,7 @@
-Knowledge Transfer Platform (KTP)
+**Knowledge Transfer Platform (KTP)**
 A collaborative web application built to simplify and streamline technical knowledge sharing within engineering teams. Designed with a minimal, intuitive interface using Streamlit, and enhanced by GitHub and Slack integrations for seamless workflows.
 
-Features
+**Features**
 Create, edit, and browse technical knowledge articles
 
 GitHub API integration to track real-time code contributions
@@ -12,7 +12,7 @@ Search and filter content by tags or keywords
 
 Optional data visualizations for team activity
 
-Tech Stack
+**Tech Stack**
 Frontend & App UI
 
 Streamlit (Python-based UI framework)
@@ -33,7 +33,7 @@ Redis for caching and fast lookups
 
 MongoDB (optional, for structured content storage)
 
-Setup Instructions
+**Setup Instructions**
 Clone the repository:
 
 git clone https://github.com/Nannndini/ktp.git
@@ -74,7 +74,7 @@ ktp/
 ├── .env.example
 ├── requirements.txt
 └── README.md
-Team
+**Team**
 Kailash 
 
 Nandini  
@@ -83,17 +83,17 @@ Vardhan
 
 Sarayu 
 
-Demo
+**Demo**
 Add a demo GIF or screenshot here for better visualization:
 
 assets/screenshot.png
 
 (Replace with the actual screenshot path once ready)
 
-License
+**License**
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contribution & Support
+**Contribution & Support**
 Found a bug or have a suggestion?
 Feel free to open an issue or submit a pull request.
 We welcome contributions from the community!
