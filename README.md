@@ -35,7 +35,7 @@ Have questions? Reach out via GitHub Issues.
 ![Stars](https://img.shields.io/github/stars/Nannndini/ktp?style=social)
 Add a screenshot or demo GIF
 Place it under a section like:
-##  Demo
+Demo
 ![Screenshot](./assets/screenshot.png)
 Add .env.example file (if using .env)
 Include something like:
