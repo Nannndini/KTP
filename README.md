@@ -22,13 +22,8 @@ This project is licensed under the MIT License.
 See the LICENSE file for details.
 
 Contact
-Have questions? Reach out via GitHub Issues or [email@example.com].
+Have questions? Reach out via GitHub Issues.
 
-yaml
-Copy
-Edit
-
----
 
 ### **Optional Enhancements**
 
@@ -45,9 +40,6 @@ Place it under a section like:
 Add .env.example file (if using .env)
 Include something like:
 
-ini
-Copy
-Edit
 MONGO_URI=your-mongodb-uri
 GITHUB_TOKEN=your-github-token
 SLACK_WEBHOOK_URL=your-slack-webhook
