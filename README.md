@@ -1,91 +1,56 @@
-**Knowledge Transfer Platform (KTP)**
+**DevHive**
+**A Knowledge Transfer Platform for Technical Teams**
 
-A collaborative web application built to simplify and streamline technical knowledge sharing within engineering teams. Designed with a minimal, intuitive interface using Streamlit, and enhanced by GitHub and Slack integrations for seamless workflows.
+DevHive is a centralized and intelligent platform designed to streamline knowledge sharing within engineering teams. It enables users to store, organize, and retrieve technical documents, meeting notes, and GitHub activity using semantic search and AI-powered recommendations.
 
-**Features**
-
-Create, edit, and browse technical knowledge articles
-
-GitHub API integration to track real-time code contributions
-
-Slack notifications to stay updated on new posts and edits
-
-Search and filter content by tags or keywords
-
-Optional data visualizations for team activity
+**Project Overview**
+The platform addresses the common problem of scattered team knowledge across tools and formats. DevHive captures essential insights and makes them easily accessible through intelligent search and contextual assistance.
 
 **Tech Stack**
+Layer	Tools/Frameworks
+Frontend	Streamlit (Python-based UI)
+Backend	FastAPI (or Flask)
+AI/LLM	Gemini API / OpenAI
+Search/RAG	Vector Database (Pinecone or Qdrant), Redis
+Storage/Cache	Redis
+DevOps	GitHub for version control
 
-Frontend & App UI
+**Features**
+Semantic search using vector embeddings
 
-Streamlit (Python-based UI framework)
+AI-based summarization and recommendations
 
-Backend / Logic
+GitHub integration for syncing commits, PRs, and issues
 
-Python (REST API logic & integrations)
+Structured document upload and categorization
 
-GitHub REST API
+Fast and clean interface built with Streamlit
 
-Slack Webhooks
-
-Database & Storage
-
-Vector DB: Pinecone or ChromaDB
-
-Redis for caching and fast lookups
-
-MongoDB (optional, for structured content storage)
+Redis caching for faster search and retrieval
 
 **Setup Instructions**
+1. Clone the repository
 
-Clone the repository:
-
-git clone https://github.com/Nannndini/ktp.git
-cd ktp
-Create and activate a virtual environment:
-
-python -m venv venv
-source venv/bin/activate  # For Windows: venv\Scripts\activate
-Install dependencies:
-
-pip install -r requirements.txt
-Configure environment variables:
-
-Create a .env file based on .env.example
-
-**Fill in your credentials:**
+git clone https://github.com/your-org/devhive.git
+cd devhive
+2. Configure environment variables
+Create a .env file in the project root:
 
 
-MONGO_URI=your-mongodb-uri
-GITHUB_TOKEN=your-github-token
-SLACK_WEBHOOK_URL=your-slack-webhook
-PORT=5000
-Run the app locally:
+VECTOR_DB_API_KEY=your_api_key
+REDIS_URL=redis://localhost:6379
+GEMINI_API_KEY=your_gemini_api_key
+3. Run the application
+If using Streamlit:
+
 
 streamlit run app.py
-Project Structure
+If using FastAPI:
 
-**Team**
+uvicorn main:app --reload
 
-Kailash 
-
-Nandini  
-
-Vardhan  
-
-Sarayu 
-
-**Demo**
-
-Add a demo GIF or screenshot here for better visualization:
-
-assets/screenshot.png
-
-(Replace with the actual screenshot path once ready)
-
-**License**
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+**License and Ownership**
+This project is developed and maintained by the DevHive team as part of a hackathon initiative. For internal use only.
 
 **Contribution & Support**
 Found a bug or have a suggestion?
