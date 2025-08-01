@@ -1,62 +1,99 @@
 Knowledge Transfer Platform (KTP)
+A collaborative web application built to simplify and streamline technical knowledge sharing within engineering teams. Designed with a minimal, intuitive interface using Streamlit, and enhanced by GitHub and Slack integrations for seamless workflows.
 
-A collaborative web app designed to simplify and streamline technical knowledge sharing within teams — built using Streamlit.
+Features
+Create, edit, and browse technical knowledge articles
 
-##  Features
--  Create and browse technical knowledge articles
--  GitHub API integration to track real-time contributions
--  Slack notifications for article updates
--  Search and tag-based filtering
-- Data visualizations of team activity (optional)
+GitHub API integration to track real-time code contributions
 
-## 🛠 Tech Stack
+Slack notifications to stay updated on new posts and edits
 
-**Frontend & App UI**
-- [Streamlit](https://streamlit.io/) — Python-based interactive UI framework
+Search and filter content by tags or keywords
 
-**Backend / Logic**
-- Python (APIs & integrations)
-- GitHub REST API
-- Slack Webhooks
+Optional data visualizations for team activity
 
-**Database**
-- vector database
+Tech Stack
+Frontend & App UI
 
+Streamlit (Python-based UI framework)
 
-## ⚙️ Setup Instructions
+Backend / Logic
 
-Clone the repo:
-```bash
-git clone https://github.com/your-username/ktp.git
+Python (REST API logic & integrations)
+
+GitHub REST API
+
+Slack Webhooks
+
+Database & Storage
+
+Vector DB: Pinecone or ChromaDB
+
+Redis for caching and fast lookups
+
+MongoDB (optional, for structured content storage)
+
+Setup Instructions
+Clone the repository:
+
+git clone https://github.com/Nannndini/ktp.git
 cd ktp
-## Team
-- Nandini (Frontend & Repo Manager)
-- [Add other members]
+Create and activate a virtual environment:
 
-## License
-This project is licensed under the MIT License.
-See the LICENSE file for details.
+python -m venv venv
+source venv/bin/activate  # For Windows: venv\Scripts\activate
+Install dependencies:
 
-Contact
-Have questions? Reach out via GitHub Issues.
+pip install -r requirements.txt
+Configure environment variables:
 
+Create a .env file based on .env.example
 
-### **Optional Enhancements**
-
-1. **Add badges** to the top of your README (before "Features"):
-
-```md
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![Issues](https://img.shields.io/github/issues/Nannndini/ktp)
-![Stars](https://img.shields.io/github/stars/Nannndini/ktp?style=social)
-Add a screenshot or demo GIF
-Place it under a section like:
-Demo
-![Screenshot](./assets/screenshot.png)
-Add .env.example file (if using .env)
-Include something like:
+Fill in your credentials:
 
 MONGO_URI=your-mongodb-uri
 GITHUB_TOKEN=your-github-token
 SLACK_WEBHOOK_URL=your-slack-webhook
 PORT=5000
+Run the app locally:
+
+streamlit run app.py
+Project Structure
+
+ktp/
+├── app.py
+├── components/
+│   └── sidebar.py
+├── services/
+│   ├── github_api.py
+│   └── slack_notifier.py
+├── utils/
+│   └── filters.py
+├── assets/
+│   └── screenshot.png
+├── .env.example
+├── requirements.txt
+└── README.md
+Team
+Kailash 
+
+Nandini  
+
+Vardhan  
+
+Sarayu 
+
+Demo
+Add a demo GIF or screenshot here for better visualization:
+
+assets/screenshot.png
+
+(Replace with the actual screenshot path once ready)
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contribution & Support
+Found a bug or have a suggestion?
+Feel free to open an issue or submit a pull request.
+We welcome contributions from the community!
